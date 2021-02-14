@@ -8,21 +8,33 @@ const StyledContainer = styled.div`
     max-width: 100%;
     max-height: 100%;
     display: flex;
+    flex-direction:
 `
+
 const StyledDiv = styled.div`
     display: flex;
-    justify-content: center;
+    margin: unset;
     align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    flex-direction: column;
 `
 
 const Hero = () => {
     return (
         <StyledContainer>
             <StyledDiv>
-                <h1>
-                    ola
+                <div>
+                    <h1>
+                        ola
                 </h1>
+                    <h2>
+                        teste
+                </h2>
+                </div>
+                <p>test tagging</p>
             </StyledDiv>
+
         </StyledContainer>
     )
 }
