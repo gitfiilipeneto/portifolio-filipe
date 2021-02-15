@@ -1,3 +1,4 @@
+import styled from 'styled-components'
 
 const StyledContainer = styled.div`
 width: 100vw;
@@ -16,12 +17,14 @@ padding:20px;
 flex-direction: column;
 `
 
-const StyledTag = styled.div`
-    border: 2px black solid;
-    font-size: 10px;
+const StyledTag = styled.p`
+border: 1px black solid;
+font-size: 14px;
+width:max-content;
+padding: 3px;
 `
 
-export{
+export {
     StyledContainer,
     StyledDiv,
     StyledTag

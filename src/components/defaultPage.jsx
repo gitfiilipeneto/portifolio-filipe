@@ -1,16 +1,22 @@
 import React, { Component } from 'react'
-import { StyledContainer } from '../assets/style'
+import { StyledContainer, StyledDiv, StyledTag } from '../assets/Defaultstyle'
 
 class DefaultPage extends Component {
     render() {
         return (
             <StyledContainer>
                 
-                <h1> {this.props.ProjectTittle} </h1>,
+                <StyledDiv>
 
-                <h2> {this.props.Comment} </h2>,
+                    <h1> {this.props.projectTittle} </h1>
 
-                <p> {this.props.techs} </p>
+                    <div>
+                    <h2> {this.props.comment} </h2>
+
+                    <StyledTag> {this.props.techs} </StyledTag>
+                    </div>
+                </StyledDiv>
+
             </StyledContainer>
 
         )

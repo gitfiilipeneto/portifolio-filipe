@@ -20,19 +20,29 @@ const StyledDiv = styled.div`
     flex-direction: column;
 `
 
+const StyledTag = styled.p`
+    border: 1px black solid;
+    font-size: 14px;
+    width:max-content;
+    padding: 3px;
+`
+
 const Hero = () => {
     return (
         <StyledContainer>
             <StyledDiv>
-                <div>
-                    <h1>
-                        ola
+
+                <h1>
+                    nome do projeto
                 </h1>
+
+                <div>
                     <h2>
-                        teste
-                </h2>
+                        Descrição do projeto
+                    </h2>
+
+                    <StyledTag>tags</StyledTag>
                 </div>
-                <p>test tagging</p>
             </StyledDiv>
 
         </StyledContainer>
