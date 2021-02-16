@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hero from './components/heroSection'
 import NavigationBar from './components/navBar';
 import ProjetoTeste from './components/projetoTeste';
+import Hero from './components/heroSection'
+import GlobalStyle from './assets/GobalStyles'
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <GlobalStyle/>
     <NavigationBar/>
-    {/* <Hero/> */}
+    <Hero/>
     <ProjetoTeste/>
   </React.StrictMode>,
   document.getElementById('root')
