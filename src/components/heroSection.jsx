@@ -25,7 +25,7 @@ height: 100%;
 
 const StyledDiv = styled.div`
     display: flex;
-    margin: unset;
+    // margin: unset;
     align-items: center;
     justify-content: space-between;
     padding:20px;
@@ -35,7 +35,7 @@ const StyledDiv = styled.div`
 const StyledTextBox = styled.div`
     // border: 1px black solid;
     height:auto;
-    padding: 3px;
+    
     z-index:1;
     color: white;
     flex-direction: column;
@@ -44,9 +44,11 @@ const StyledTextBox = styled.div`
     justify-content: center;
     & h1{
         font-size: 70px;
+        margin: unset;
     }
     & p{
         font-size: 25px;
+        margin: unset;
     }
 `
 
