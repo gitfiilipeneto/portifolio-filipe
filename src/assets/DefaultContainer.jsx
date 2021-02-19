@@ -5,8 +5,7 @@ const StyledContainer = styled.div`
     height: 100vh;
     max-width: 100%;
     max-height: 100%;
-    display: flex;
-    
+    display: flex;    
 `
 
 const StyledDiv = styled.div`

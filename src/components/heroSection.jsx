@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import heroImage from '../assets/images/HeroImg.png'
+import personalCard from './myIdCard'
 
 const StyledContainer = styled.div`
 width: 100vw;
@@ -57,8 +58,10 @@ const Hero = () => {
         <StyledContainer>
             <Layer/>
             <StyledTextBox>
+                
                 <h1>Filipe Neto</h1>
-                <p>Front end Developer</p>
+                <p> jr Frontend dev</p>
+
             </StyledTextBox>
 
         </StyledContainer>
