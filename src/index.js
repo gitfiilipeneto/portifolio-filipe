@@ -4,7 +4,7 @@ import NavigationBar from './components/navBar';
 import ProjetoTeste from './components/projetoTeste';
 import Hero from './components/heroSection'
 import GlobalStyle from './assets/GobalStyles'
-import PersonalCard from './components/myIdCard'
+
 
 
 
@@ -14,7 +14,7 @@ ReactDOM.render(
     <NavigationBar/>
     <Hero/>
     <ProjetoTeste/>
-    <PersonalCard/>
+    
     
   </React.StrictMode>,
   document.getElementById('root')

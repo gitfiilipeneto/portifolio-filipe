@@ -1,7 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import heroImage from '../assets/images/HeroImg.png'
-import personalCard from './myIdCard'
+
+import gitHub from '../assets/images/github.png'
+import insta from '../assets/images/instagram.png'
+import linkedIn from '../assets/images/linkedin.png'
+
 
 const StyledContainer = styled.div`
 width: 100vw;
@@ -13,7 +17,7 @@ background:url(${heroImage});
 object-fit: cover;
 position:relative;
 justify-content:center;
-
+align-items:center;
 `
 
 const Layer = styled.div`
@@ -26,7 +30,6 @@ height: 100%;
 
 const StyledDiv = styled.div`
     display: flex;
-    // margin: unset;
     align-items: center;
     justify-content: space-between;
     padding:20px;
@@ -34,33 +37,59 @@ const StyledDiv = styled.div`
 `
 
 const StyledTextBox = styled.div`
-    // border: 1px black solid;
-    height:auto;
-    
+    height:max-content;
+    margin: 20px;
+    padding: 25px;
     z-index:1;
-    color: white;
+    color: black;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
-    & h1{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2em;
+
+    & div h1{
         font-size: 70px;
         margin: unset;
     }
-    & p{
+    & div p{
         font-size: 25px;
         margin: unset;
+    }
+
+ 
+    & div img{
+        
+        max-width: 40px;
+        
+        margin: 5px;
     }
 `
 
 const Hero = () => {
     return (
         <StyledContainer>
-            <Layer/>
+
+            <Layer />
+
             <StyledTextBox>
-                
+
+
+
                 <h1>Filipe Neto</h1>
-                <p> jr Frontend dev</p>
+                <p> jr Front-end dev</p>
+
+                <div>
+
+                    <img src={gitHub} />
+                    <img src={insta} />
+                    <img src={linkedIn} />
+
+                </div>
+
+
+
 
             </StyledTextBox>
 
