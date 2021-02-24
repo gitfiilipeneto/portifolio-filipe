@@ -49,11 +49,11 @@ const StyledTextBox = styled.div`
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 2em;
 
-    & div h1{
-        font-size: 70px;
+    & h1{
+        font-size: 65px;
         margin: unset;
     }
-    & div p{
+    & p{
         font-size: 25px;
         margin: unset;
     }
@@ -61,9 +61,9 @@ const StyledTextBox = styled.div`
  
     & div img{
         
-        max-width: 40px;
+        max-width: 45px;
         
-        margin: 5px;
+        margin: 6px;
     }
 `
 
@@ -82,9 +82,17 @@ const Hero = () => {
 
                 <div>
 
-                    <img src={gitHub} />
-                    <img src={insta} />
-                    <img src={linkedIn} />
+                    <a href='https://github.com/gitfiilipeneto'>
+                        <img src={gitHub} />
+                    </a>
+                    <a href='https://www.linkedin.com/in/fiilipe-neto/'>
+                        <img src={linkedIn} />
+                    </a>
+                    <a href='https://www.instagram.com/fiilipeneto/'>
+
+                        <img src={insta} />
+                    </a>
+
 
                 </div>
 

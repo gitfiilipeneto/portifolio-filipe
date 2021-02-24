@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import GlobalStyle from './assets/GobalStyles'
 import NavigationBar from './components/navBar';
 import ProjetoTeste from './components/projetoTeste';
 import Hero from './components/heroSection'
-import GlobalStyle from './assets/GobalStyles'
+import AboutMeSection from './components/aboutMe';
 
 
 
@@ -13,7 +14,8 @@ ReactDOM.render(
     <GlobalStyle/>
     <NavigationBar/>
     <Hero/>
-    <ProjetoTeste/>
+    {/* <ProjetoTeste/> */}
+    {/* <AboutMeSection/> */}
     
     
   </React.StrictMode>,
