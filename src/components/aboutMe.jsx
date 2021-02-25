@@ -15,12 +15,14 @@ const StyledSection = styled.section`
 `
 const Styledimg = styled.img`
     
-    max-width: 200px;
+    max-width: 290px;
     height: auto;
 `
 const StyledDiv = styled.div`
     margin: 15px;
     width: 30vw;
+
+
     & h1{
         font-size:18px;
     }
@@ -36,6 +38,12 @@ const StyledDiv = styled.div`
     & p {
         font-size: 14px;
     }
+    & ul li{
+        
+        list-style-type: none;
+        font-size: 14px;
+    }
+
     // & p:after{
     //     content: '';
     //     width: 100px;
@@ -57,8 +65,19 @@ class AboutMeSection extends Component {
                 
                 <StyledDiv>
                     <h1>About me</h1>
-                    <p>Graduando em economia, apaixonado por tecnologia (principalmente por fones de ouvido) e um recém amante do basquete :D</p>
+                    <ul>
+
+                    <li>Graduando em economia, apaixonado por tecnologia (principalmente por fones de ouvido) e um recém amante do basquete :D</li>
+                    </ul>
+                   
                     <h1>Contact Info</h1>
+                    <ul>
+                        <li>Filipe Neto Pires</li>
+                        <li>Gravataí -RS</li>
+                        <li>Rio Grande do Sul</li>
+                        <li>filipenetopires@hotmail.com</li>
+
+                    </ul>
                 </StyledDiv>
             </StyledSection>
 
