@@ -5,6 +5,7 @@ import NavigationBar from './components/navBar';
 import ProjetoTeste from './components/projetoTeste';
 import Hero from './components/heroSection'
 import AboutMeSection from './components/aboutMe';
+import YouShallNotPass from './components/waitHere';
 
 
 
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Hero/>
     {/* <ProjetoTeste/> */}
     <AboutMeSection/>
+    <YouShallNotPass/>
     
     
   </React.StrictMode>,
