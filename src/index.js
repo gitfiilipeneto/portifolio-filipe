@@ -15,7 +15,7 @@ ReactDOM.render(
     <NavigationBar/>
     <Hero/>
     {/* <ProjetoTeste/> */}
-    {/* <AboutMeSection/> */}
+    <AboutMeSection/>
     
     
   </React.StrictMode>,
