@@ -6,6 +6,7 @@ import ProjetoTeste from './components/projetoTeste';
 import Hero from './components/heroSection'
 import AboutMeSection from './components/aboutMe';
 import YouShallNotPass from './components/waitHere';
+import GridFavTechs from './components/favTechsGrid';
 
 
 
@@ -18,7 +19,7 @@ ReactDOM.render(
     {/* <ProjetoTeste/> */}
     <AboutMeSection/>
     <YouShallNotPass/>
-    
+    <GridFavTechs/>
     
   </React.StrictMode>,
   document.getElementById('root')
