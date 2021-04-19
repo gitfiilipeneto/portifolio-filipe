@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import lipeIcon from '../assets/images/lipe-icon.png'
 import styled from 'styled-components'
 
+//instanciar os estilos em um arquivo
+
 const StyledSection = styled.section`
     
     height: max-content;
@@ -9,7 +11,7 @@ const StyledSection = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    alingn-items: center;
+    align-items: center;
 
     background-color: rgba(63, 127, 146, 0.2);
 `

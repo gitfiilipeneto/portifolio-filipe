@@ -17,9 +17,9 @@ ReactDOM.render(
     <NavigationBar/>
     <Hero/>
     {/* <ProjetoTeste/> */}
-    <AboutMeSection/>
+    {/* <AboutMeSection/> */}
     <YouShallNotPass/>
-    <GridFavTechs/>
+    {/* <GridFavTechs/> */}
     
   </React.StrictMode>,
   document.getElementById('root')

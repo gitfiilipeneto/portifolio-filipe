@@ -2,9 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import heroImage from '../assets/images/HeroImg.png'
 
-import gitHub from '../assets/images/github.png'
-import insta from '../assets/images/instagram.png'
-import linkedIn from '../assets/images/linkedin.png'
+
+import { ReactComponent as GitHubSVG } from '../assets/images/github.svg'
+import { ReactComponent as LinkedinSVG } from '../assets/images/linkedin.svg'
+import { ReactComponent as InstagramSVG } from '../assets/images/instagram.svg'
+
 
 
 const StyledContainer = styled.div`
@@ -59,12 +61,26 @@ const StyledTextBox = styled.div`
     }
 
  
-    & div img{
+    & div {
+        width: 300px;
+        align-items:center;        
         
-        max-width: 45px;
-        
-        margin: 6px;
+
     }
+`
+const SVGWrapper = styled.div`
+    display: flex;
+    justify-content:center;
+
+    & svg{
+            max-width: 45px;
+            height:auto;
+            margin: 2px;
+            & :hover{
+
+            fill:rgba(63, 127, 146, 0.5);
+            }
+        }
 `
 
 const Hero = () => {
@@ -80,21 +96,24 @@ const Hero = () => {
                 <h1>Filipe Neto</h1>
                 <p> jr Front-end dev</p>
 
-                <div>
+                <SVGWrapper>
 
                     <a href='https://github.com/gitfiilipeneto'>
-                        <img src={gitHub} />
+                        <GitHubSVG />
                     </a>
+
+
                     <a href='https://www.linkedin.com/in/fiilipe-neto/'>
-                        <img src={linkedIn} />
+                        <LinkedinSVG />
                     </a>
+
+
                     <a href='https://www.instagram.com/fiilipeneto/'>
-
-                        <img src={insta} />
+                        <InstagramSVG/>
                     </a>
 
 
-                </div>
+                </SVGWrapper>
 
 
 
