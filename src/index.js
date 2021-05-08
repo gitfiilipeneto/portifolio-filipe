@@ -14,7 +14,7 @@ import GridFavTechs from './components/favTechsGrid';
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle/>
-    <NavigationBar/>
+    {/* <NavigationBar/> */}
     <Hero/>
     {/* <ProjetoTeste/> */}
     {/* <AboutMeSection/> */}
